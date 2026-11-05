@@ -54,3 +54,8 @@ data/processed/*
 # Temporary files & logs
 *.log
 *.tmp
+
+# Local working regulations (keep local only)
+QUY_DINH_VA_YEU_CAU_GIAI_DOAN_1.md
+
+
