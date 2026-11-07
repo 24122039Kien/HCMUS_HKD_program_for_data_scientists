@@ -16,3 +16,4 @@ dependencies:
   - ipykernel>=6.20.0
   - pip:
     - pdfplumber>=0.10.0
+

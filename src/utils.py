@@ -73,3 +73,4 @@ def cluster_bootstrap_ci(df: pd.DataFrame, cluster_col: str, calc_func,
     lower_bound = float(np.percentile(boot_estimates, alpha))
     upper_bound = float(np.percentile(boot_estimates, 100.0 - alpha))
     return lower_bound, upper_bound
+
