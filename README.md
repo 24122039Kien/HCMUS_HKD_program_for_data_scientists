@@ -11,7 +11,7 @@
 | :---: | :--- | :---: | :--- | :--- |
 | 1 | *[Điền họ tên TV1]* | *[Điền MSSV]* | **Trưởng nhóm:** Quản trị Git/Repo, Data Collection (3.1), EDA Overview & Không gian–thời gian, phụ trách **Q1 & Q2**, `src/utils.py`. | *[Email]* |
 | 2 | *[Điền họ tên TV2]* | *[Điền MSSV]* | **Thành viên:** EDA cột số & kinh tế, Chuẩn hóa tuổi (ASR), Chuẩn hóa đồ thị `src/visualization.py`, phụ trách **Q3 & Q4**, Mục 3.5 & `slides.pdf`. | *[Email]* |
-| 3 | *[Điền họ tên TV3]* | *[Điền MSSV]* | **Thành viên:** EDA nhân khẩu học & thiếu HDI, Ghép dữ liệu ngoài (D1), Xây dựng Machine Learning Pipeline **Q6**, phụ trách **Q5 & Q6**, `LLM_USAGE.md` & Mock Defense. | *[Email]* |
+| 3 | *[Nguyễn Đỗ Bảo Kiên]* | *[24122039]* | **Thành viên:** EDA nhân khẩu học & thiếu HDI, Ghép dữ liệu ngoài (D1), Xây dựng Machine Learning Pipeline **Q6**, phụ trách **Q5 & Q6**, `LLM_USAGE.md` & Mock Defense. | *[Email]* |
 
 ### 1.2. Quyền sở hữu 6 câu hỏi nghiên cứu (Question Ownership)
 * **Q1 (TV1):** Xu hướng tỷ lệ tử vong do tự tử toàn cầu: Mẫu cố định (Fixed Cohort) vs Mẫu đầy đủ (All Available Countries) *(D2, D3, D6)*.
