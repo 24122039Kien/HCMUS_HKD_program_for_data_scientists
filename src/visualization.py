@@ -35,3 +35,4 @@ def save_figure(fig, filename: str, dpi: int = 300):
     """
     fig.savefig(filename, dpi=dpi, bbox_inches="tight")
     print(f"-> Đã lưu biểu đồ: {filename}")
+

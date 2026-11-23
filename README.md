@@ -11,7 +11,7 @@
 | :---: | :--- | :---: | :--- | :--- |
 | 1 | *[Điền họ tên TV1]* | *[Điền MSSV]* | **Trưởng nhóm:** Quản trị Git/Repo, Data Collection (3.1), EDA Overview & Không gian–thời gian, phụ trách **Q1 & Q2**, `src/utils.py`. | *[Email]* |
 | 2 | *[Điền họ tên TV2]* | *[Điền MSSV]* | **Thành viên:** EDA cột số & kinh tế, Chuẩn hóa tuổi (ASR), Chuẩn hóa đồ thị `src/visualization.py`, phụ trách **Q3 & Q4**, Mục 3.5 & `slides.pdf`. | *[Email]* |
-| 3 | *[Điền họ tên TV3]* | *[Điền MSSV]* | **Thành viên:** EDA nhân khẩu học & thiếu HDI, Ghép dữ liệu ngoài (D1), Xây dựng Machine Learning Pipeline **Q6**, phụ trách **Q5 & Q6**, `LLM_USAGE.md` & Mock Defense. | *[Email]* |
+| 3 | *[Nguyễn Đỗ Bảo Kiên]* | *[24122039]* | **Thành viên:** EDA nhân khẩu học & thiếu HDI, Ghép dữ liệu ngoài (D1), Xây dựng Machine Learning Pipeline **Q6**, phụ trách **Q5 & Q6**, `LLM_USAGE.md` & Mock Defense. | *[Email]* |
 
 ### 1.2. Quyền sở hữu 6 câu hỏi nghiên cứu (Question Ownership)
 * **Q1 (TV1):** Xu hướng tỷ lệ tử vong do tự tử toàn cầu: Mẫu cố định (Fixed Cohort) vs Mẫu đầy đủ (All Available Countries) *(D2, D3, D6)*.
@@ -30,9 +30,9 @@
   - World Health Organization (WHO) - Thống kê tự tử toàn cầu.
   - World Bank - Chỉ số phát triển thế giới và GDP.
   - United Nations Development Program (UNDP) - Chỉ số phát triển con người (HDI).
-  - Dữ liệu dân số theo thế hệ của Liên Hợp Quốc.
+  - Bộ dữ liệu tiền thân trên Kaggle của tác giả Szamil (2017 - "Suicide in the Twenty-First Century") kế thừa việc phân loại thế hệ nhân khẩu học (`generation`) theo định nghĩa xã hội học phương Tây (Pew Research Center).
 - **Quy mô:** 27,820 dòng, 12 cột, bao phủ 101 quốc gia trong giai đoạn 1985–2016.
-- **Giấy phép (License):** Dữ liệu công khai phục vụ mục đích giáo dục và nghiên cứu học thuật (Public Domain / CC0).
+- **Giấy phép (License):** World Bank Dataset Terms of Use (tương thích CC BY 4.0 - Dữ liệu mở cho phép sử dụng, phân tích và nghiên cứu học thuật kèm yêu cầu ghi công nguồn gốc).
 - **Khai báo công trình tham khảo (Declare existing work - Bắt buộc theo đề bài):**
   - Nhóm có tham khảo một số phân tích mô tả sơ bộ từ notebook công khai trên Kaggle: [Global Suicide Analysis (1985-2016)](https://www.kaggle.com/code/pratyusha2005/global-suicide-analysis-1985-2016/notebook).
   - **Điểm khác biệt và đóng góp độc lập của nhóm:**
@@ -104,3 +104,4 @@ Chạy tuần tự thông qua lệnh **Kernel -> Restart & Run All**:
 2. **Phát hiện 2 (Bẫy chọn mẫu):** Xu hướng giảm tỷ lệ toàn cầu giai đoạn sau năm 2000 phần lớn do sự gia nhập của các quốc gia đang phát triển có tỷ lệ ghi nhận thấp, khi cố định một tập quốc gia (Fixed Cohort) thì mức độ sụt giảm chậm hơn nhiều.
 3. **Phát hiện 3 (Già hóa dân số):** Tại các quốc gia có tốc độ già hóa nhanh, tỷ lệ tử vong thô tăng lên nhưng tỷ lệ chuẩn hóa theo tuổi (ASR) thực tế lại giảm.
 4. **Phát hiện 4 (Dự báo Machine Learning):** Mô hình Random Forest với các biến trễ chuỗi thời gian cải thiện đáng kể sai số MAE so với Naive Baseline, giúp nhận diện sớm các phân nhóm có nguy cơ cao trong năm tiếp theo.
+
