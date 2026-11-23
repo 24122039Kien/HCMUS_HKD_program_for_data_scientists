@@ -9,13 +9,13 @@
 ### 1.1. Danh sách thành viên
 | STT | Họ và Tên | MSSV | Vai trò chính | Email |
 | :---: | :--- | :---: | :--- | :--- |
-| 1 | *[Điền họ tên TV1]* | *[Điền MSSV]* | **Trưởng nhóm:** Quản trị Git/Repo, Data Collection (3.1), EDA Overview & Không gian–thời gian, phụ trách **Q1 & Q2**, `src/utils.py`. | *[Email]* |
+| 1 | Huy | *[Điền MSSV]* | **Trưởng nhóm:** Quản trị Git/Repo, Data Collection (3.1), EDA Overview & Không gian–thời gian, phụ trách **Q1 & Q2**, `src/utils.py`. | *[Email]* |
 | 2 | *[Điền họ tên TV2]* | *[Điền MSSV]* | **Thành viên:** EDA cột số & kinh tế, Chuẩn hóa tuổi (ASR), Chuẩn hóa đồ thị `src/visualization.py`, phụ trách **Q3 & Q4**, Mục 3.5 & `slides.pdf`. | *[Email]* |
 | 3 | *[Nguyễn Đỗ Bảo Kiên]* | *[24122039]* | **Thành viên:** EDA nhân khẩu học & thiếu HDI, Ghép dữ liệu ngoài (D1), Xây dựng Machine Learning Pipeline **Q6**, phụ trách **Q5 & Q6**, `LLM_USAGE.md` & Mock Defense. | *[Email]* |
 
 ### 1.2. Quyền sở hữu 6 câu hỏi nghiên cứu (Question Ownership)
-* **Q1 (TV1):** Xu hướng tỷ lệ tử vong do tự tử toàn cầu: Mẫu cố định (Fixed Cohort) vs Mẫu đầy đủ (All Available Countries) *(D2, D3, D6)*.
-* **Q2 (TV1):** Chênh lệch tỷ lệ tử vong Nam – Nữ theo 6 độ tuổi và Khoảng tin cậy Cluster Bootstrap 95% CI *(D3, D4, D5)*.
+* **Q1 (Huy):** Xu hướng tỷ lệ tử vong do tự tử toàn cầu: Mẫu cố định (Fixed Cohort) vs Mẫu đầy đủ (All Available Countries) *(D2, D3, D6)*.
+* **Q2 (Huy):** Chênh lệch tỷ lệ tử vong Nam – Nữ theo 6 độ tuổi và Khoảng tin cậy Cluster Bootstrap 95% CI *(D3, D4, D5)*.
 * **Q3 (TV2):** Mối liên hệ giữa biến động GDP bình quân đầu người và Tỷ lệ tử vong trong cùng quốc gia *(D2, D3, D4, D6)*.
 * **Q4 (TV2):** Tác động của già hóa dân số: So sánh Tỷ lệ thô và Tỷ lệ chuẩn hóa theo độ tuổi trực tiếp (ASR) *(D2, D3, D4, D6)*.
 * **Q5 (TV3):** Khảo sát dữ liệu thiếu của HDI và sai lệch ước lượng theo độ tuổi & vùng địa lý *(D1, D2, D3, D4, D5, D6)*.

@@ -15,7 +15,7 @@ Nhóm cam kết tuân thủ đúng quy định tại **Mục 6** của đề cư
 
 ## 2. NHẬT KÝ SỬ DỤNG AI THEO TỪNG THÀNH VIÊN
 
-### 2.1. Thành viên 1: [Điền Họ và Tên - MSSV]
+### 2.1. Thành viên 1: Huy
 *Phụ trách: Quản trị Git, Mục 3.1 Data Collection, EDA thời gian/không gian, Q1 & Q2, `src/utils.py`*
 
 | STT | Ngày | Công cụ AI | Yêu cầu / Câu hỏi đã gửi (Prompt) | Kết quả nhận được & Cách áp dụng, chỉnh sửa |
