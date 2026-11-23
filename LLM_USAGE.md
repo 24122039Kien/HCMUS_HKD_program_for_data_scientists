@@ -23,7 +23,7 @@ Nhóm cam kết tuân thủ đúng quy định tại **Mục 6** của đề cư
 | **01** | 03/11 | Antigravity (Claude / Gemini) | *"Lập kế hoạch chi tiết đồ án Khoa học Dữ liệu cho bộ dữ liệu Suicide Rates Overview theo rubric đề bài CSC17104."* | Nhận khung kế hoạch tổng thể; nhóm họp thảo luận, chốt danh sách 6 câu hỏi và ma trận phân công công việc. |
 | **02** | 05/11 | Antigravity (Claude / Gemini) | *"Kiểm tra tính đầy đủ của 6 tiêu chí D1-D6 và 6 yêu cầu Machine Learning theo file PDF đề bài."* | Phát hiện câu hỏi Non-ML ban đầu thiếu tiêu chí D1. Bổ sung D1 vào Q5 bằng cách ghép file `country_region.csv`. |
 | **03** | 23/11 | Antigravity (Claude / Gemini) | *"Phương pháp bóc tách Selection Bias ở Q1 bằng Fixed Balanced Cohort và kiểm tra tính vững D6"* | Hiểu cách so sánh Fixed Cohort vs All Available, triển khai 3 biểu đồ chuẩn học thuật và phân tích định lượng vào notebooks/02_analysis.ipynb. |
-| **04** | *[Điền]* | *[Tên AI]* | *[Ví dụ: Thuật toán Cluster Bootstrap tính 95% CI cho Q2]* | *[Ví dụ: Tham khảo code lấy mẫu theo cụm, viết vào src/utils.py]* |
+| **04** | 23/11 | Antigravity (Claude / Gemini) | *"Phương pháp ghép cặp (Paired design) D4 và Non-parametric Cluster Bootstrap 95% CI (1,000 lần lặp) bóc tách chênh lệch giới tính theo 6 nhóm tuổi ở Q2"* | Triển khai phân tích ghép cặp theo cấp cụm 99 quốc gia; hoàn thiện 2 biểu đồ (Forest Plot & Boxplot tỷ số giới) và phân tích nghịch lý chênh lệch tuyệt đối vs tương đối vào notebooks/02_analysis.ipynb. |
 
 ---
 
