@@ -48,6 +48,7 @@ Thumbs.db
 # Large data files (Strictly follow project guideline: large files are not committed)
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/country_region.csv
 data/processed/*
 !data/processed/.gitkeep
 
