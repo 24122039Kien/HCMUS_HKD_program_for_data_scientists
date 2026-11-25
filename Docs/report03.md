@@ -2,7 +2,7 @@
 
 **Người làm:** Nguyễn Đỗ Bảo Kiên (TV3), MSSV 24122039
 **Ngày:** 25/11/2026
-**Nhánh:** `feature/q5-q6`
+**Nhánh:** `feat/kien/q5-q6`
 
 ---
 
@@ -16,7 +16,7 @@
 | Kết quả và thảo luận Q5, Q6 | **Kiên đang viết** | `02_analysis.ipynb` cell 24; `03_ml_question.ipynb` cell 21 |
 | Individual Reflection 3.5.4 | **Kiên đang viết** | |
 | `LLM_USAGE.md` mục 2.3 | Có dòng 01–06, sẽ thêm dòng cho lần rà soát này | |
-| Merge `feature/q5-q6` vào `main` | **Chưa**, sẽ mở PR | |
+| Merge `feat/kien/q5-q6` vào `main` | **Chưa**, sẽ mở PR | |
 
 ---
 
@@ -56,7 +56,7 @@ Còn thiếu phần trả lời bằng số liệu cụ thể (ô thảo luận)
 
 ### 2.4. Chạy thử bản ghép với nhánh của Huy
 
-- `feature/q5-q6` và `feature/analysis-huy` cùng sửa `02_analysis.ipynb`, nhưng `git merge-tree` cho thấy **ghép được, không xung đột**.
+- `feat/kien/q5-q6` và `feature/analysis-huy` cùng sửa `02_analysis.ipynb`, nhưng `git merge-tree` cho thấy **ghép được, không xung đột**.
 - Bản ghép được chạy trên một bản sao riêng: cả 3 notebook Restart & Run All trong `min_ds-env` (pandas 2.1.1, scikit-learn 1.3.1) đều **0 lỗi, 0 cảnh báo**.
   - Thời gian chạy: `01` mất 10 giây, `02` mất 61 giây, `03` mất 137 giây.
   - Số liệu Q5 (Bias% −12.24%) và Q6 (test MAE 2.065) giữ nguyên sau khi ghép.
@@ -67,7 +67,7 @@ Còn thiếu phần trả lời bằng số liệu cụ thể (ô thảo luận)
 
 | # | Vấn đề | Đề xuất | Người |
 |---|---|---|---|
-| 1 | `feature/q5-q6` chưa vào `main` | Em mở PR; Huy review và merge cùng `feature/analysis-huy`, rồi chạy lại cả 3 notebook trên `main` | Huy |
+| 1 | `feat/kien/q5-q6` chưa vào `main` | Em mở PR; Huy review và merge cùng `feature/analysis-huy`, rồi chạy lại cả 3 notebook trên `main` | Huy |
 | 2 | README, Key finding 4, ghi "cải thiện **đáng kể** MAE… nhận diện sớm các phân nhóm có nguy cơ cao". Kết quả test thật là MAE giảm 6.68% (2.213 → 2.065), RMSE giảm 17.04%; mô hình kém hơn persistence ở nhóm có tỷ lệ năm t < 5 và nhóm 5-14 tuổi | Em gửi lại câu chữ có số liệu sau khi viết xong thảo luận Q6 | Huy |
 | 3 | README chưa có key finding của Q5 | Em gửi sau khi viết xong thảo luận Q5 | Huy |
 | 4 | Khi chạy bằng `nbconvert`, biểu đồ đầu tiên của notebook `01` (cell 11) và `02` (cell 10, Q1) chỉ in `<Figure ...>`, không có hình | Thêm `%matplotlib inline` vào cell import chung | Huy |
@@ -83,7 +83,7 @@ Còn thiếu phần trả lời bằng số liệu cụ thể (ô thảo luận)
 - [ ] Kiên viết thảo luận Q5 (cell 24) và Q6 (cell 21).
 - [ ] Kiên viết Individual Reflection 3.5.4.
 - [ ] Kiên thêm vào `LLM_USAGE.md` dòng ghi lần rà soát này.
-- [ ] Kiên mở PR `feature/q5-q6` → `main`: https://github.com/24122039Kien/HCMUS_HKD_program_for_data_scientists/compare/main...feature/q5-q6
+- [ ] Kiên mở PR `feat/kien/q5-q6` → `main`: https://github.com/24122039Kien/HCMUS_HKD_program_for_data_scientists/compare/main...feat/kien/q5-q6
 - [ ] Huy merge các nhánh, chạy lại 3 notebook trên `main`.
 - [ ] Cả nhóm: mock defense (26/11), khóa bài trước 23:59 ngày 27/11.
 
