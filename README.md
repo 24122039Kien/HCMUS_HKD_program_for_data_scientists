@@ -10,7 +10,7 @@
 | STT | Họ và Tên | MSSV | Vai trò chính | Email |
 | :---: | :--- | :---: | :--- | :--- |
 | 1 | *[Điền họ tên TV1]* | *[Điền MSSV]* | **Trưởng nhóm:** Quản trị Git/Repo, Data Collection (3.1), EDA Overview & Không gian–thời gian, phụ trách **Q1 & Q2**, `src/utils.py`. | *[Email]* |
-| 2 | *[Điền họ tên TV2]* | *[Điền MSSV]* | **Thành viên:** EDA cột số & kinh tế, Chuẩn hóa tuổi (ASR), Chuẩn hóa đồ thị `src/visualization.py`, phụ trách **Q3 & Q4**, Mục 3.5 & `slides.pdf`. | *[Email]* |
+| 2 | [Đăng](nhatky_Dang.md) | *[Điền MSSV]* | **Thành viên:** EDA cột số & kinh tế, Chuẩn hóa tuổi (ASR), Chuẩn hóa đồ thị `src/visualization.py`, phụ trách **Q3 & Q4**, Mục 3.5 & `slides.pdf`. | *[Email]* |
 | 3 | *[Nguyễn Đỗ Bảo Kiên]* | *[24122039]* | **Thành viên:** EDA nhân khẩu học & thiếu HDI, Ghép dữ liệu ngoài (D1), Xây dựng Machine Learning Pipeline **Q6**, phụ trách **Q5 & Q6**, `LLM_USAGE.md` & Mock Defense. | *[Email]* |
 
 ### 1.2. Quyền sở hữu 6 câu hỏi nghiên cứu (Question Ownership)
@@ -99,9 +99,4 @@ Chạy tuần tự thông qua lệnh **Kernel -> Restart & Run All**:
 ---
 
 ## 5. TÓM TẮT CÁC PHÁT HIỆN CHÍNH (KEY FINDINGS)
-*(Phần này sẽ được cập nhật sau khi hoàn thành chạy số liệu phân tích chi tiết)*
-1. **Phát hiện 1 (Giới tính & Tuổi):** Tỷ lệ tử vong ở nam giới cao gấp 3–4 lần nữ giới trên hầu hết các quốc gia, đặc biệt chênh lệch tăng vọt ở nhóm người cao tuổi ($\ge 55$ tuổi).
-2. **Phát hiện 2 (Bẫy chọn mẫu):** Xu hướng giảm tỷ lệ toàn cầu giai đoạn sau năm 2000 phần lớn do sự gia nhập của các quốc gia đang phát triển có tỷ lệ ghi nhận thấp, khi cố định một tập quốc gia (Fixed Cohort) thì mức độ sụt giảm chậm hơn nhiều.
-3. **Phát hiện 3 (Già hóa dân số):** Tại các quốc gia có tốc độ già hóa nhanh, tỷ lệ tử vong thô tăng lên nhưng tỷ lệ chuẩn hóa theo tuổi (ASR) thực tế lại giảm.
-4. **Phát hiện 4 (Dự báo Machine Learning):** Mô hình Random Forest với các biến trễ chuỗi thời gian cải thiện đáng kể sai số MAE so với Naive Baseline, giúp nhận diện sớm các phân nhóm có nguy cơ cao trong năm tiếp theo.
-
+Bảng đối chiếu sáu câu hỏi, phạm vi mẫu, giới hạn và hướng mở rộng nằm tại [mục 3.5 của notebook phân tích](notebooks/02_analysis.ipynb). Phần việc TV2 có thể chạy độc lập bằng [notebook Q3–Q4](notebooks/02_analysis_q3_q4.ipynb). [Slide thuyết trình 15 phút](slides.pdf).

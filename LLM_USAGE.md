@@ -27,14 +27,12 @@ Nhóm cam kết tuân thủ đúng quy định tại **Mục 6** của đề cư
 
 ---
 
-### 2.2. Thành viên 2: [Điền Họ và Tên - MSSV]
+### 2.2. Đăng (Thành viên 2)
 *Phụ trách: EDA nhóm cột số & kinh tế, Chuẩn hóa đồ thị `src/visualization.py`, Q3 & Q4, Mục 3.5 & `slides.pdf`*
 
 | STT | Ngày | Công cụ AI | Yêu cầu / Câu hỏi đã gửi (Prompt) | Kết quả nhận được & Cách áp dụng, chỉnh sửa |
 | :---: | :---: | :---: | :--- | :--- |
-| **01** | *[Điền]* | *[Tên AI]* | *[Ví dụ: Cách xử lý chuỗi có dấu phẩy ở cột GDP sang số nguyên]* | *[Ví dụ: Dùng str.replace(',', '').astype(int), áp dụng vào EDA cột số]* |
-| **02** | *[Điền]* | *[Tên AI]* | *[Ví dụ: Công thức tính Tỷ lệ chuẩn hóa tuổi trực tiếp (ASR) theo dân số chuẩn WHO]* | *[Ví dụ: Hiểu công thức toán học, tự lập trình hàm calculate_asr trong src/utils.py]* |
-| **03** | *[Điền]* | *[Tên AI]* | *[Ví dụ: Cách thiết lập Seaborn style chuẩn học thuật cho đồ thị]* | *[Ví dụ: Đưa cấu hình font chữ, DPI vào src/visualization.py]* |
+| **01** | 23/11/2026 | OpenAI Codex | “clone bản mới nhất về, làm toàn bộ sprint của TV2” | Codex đối chiếu kế hoạch, bổ sung mã Q3–Q4, sửa bảng kiểu dữ liệu EDA, tính các bảng đối chiếu cho mục 3.5, soạn slide từ số liệu và thực hiện kiểm tra tái lập. Theo yêu cầu tiếp theo “bạn làm đi”, Codex soạn thêm bảng kết quả và bản nháp phản tư kỹ thuật từ mã đã chạy. TV2 cần tự duyệt và viết phần nộp cuối theo cam kết nhóm. |
 
 ---
 
