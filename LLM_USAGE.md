@@ -31,7 +31,7 @@ Nhóm cam kết tuân thủ đúng quy định tại **Mục 6** của đề cư
 
 ---
 
-### 2.2. Thành viên 2: [Điền Họ và Tên - MSSV]
+### 2.2. Thành viên 2: Phạm Hoàng Hải Đăng - 24122030
 *Phụ trách: EDA nhóm cột số & kinh tế, Chuẩn hóa đồ thị `src/visualization.py`, Q3 & Q4, Mục 3.5 & `slides.pdf`*
 
 | STT | Ngày | Công cụ AI | Yêu cầu / Câu hỏi đã gửi (Prompt) | Kết quả nhận được & Cách áp dụng, chỉnh sửa |

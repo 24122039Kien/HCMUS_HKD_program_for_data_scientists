@@ -10,7 +10,7 @@
 | STT | Họ và Tên | MSSV | Vai trò chính | Email |
 | :---: | :--- | :---: | :--- | :--- |
 | 1 | Phan Nguyễn Gia Huy | 24122035 | **Trưởng nhóm:** Quản trị Git/Repo, Data Collection (3.1), EDA Overview & Không gian–thời gian, phụ trách **Q1 & Q2**, `src/utils.py`. | fanzahuy1472@gmail.com |
-| 2 | Đăng *(Chờ cập nhật họ tên)* | *[Điền MSSV]* | **Thành viên:** EDA cột số & kinh tế, Chuẩn hóa tuổi (ASR), Chuẩn hóa đồ thị `src/visualization.py`, phụ trách **Q3 & Q4**, Mục 3.5 & `slides.pdf`. | *[Email]* |
+| 2 | Phạm Hoàng Hải Đăng | 24122030 | **Thành viên:** EDA cột số & kinh tế, Chuẩn hóa tuổi (ASR), Chuẩn hóa đồ thị `src/visualization.py`, phụ trách **Q3 & Q4**, Mục 3.5 & `slides.pdf`. | PDangDaniel18@gmail.com |
 | 3 | Nguyễn Đỗ Bảo Kiên | 24122039 | **Thành viên:** EDA nhân khẩu học & thiếu HDI, Ghép dữ liệu ngoài (D1), Xây dựng Machine Learning Pipeline **Q6**, phụ trách **Q5 & Q6**, `LLM_USAGE.md` & Mock Defense. | *[Email]* |
 
 ### 1.2. Quyền sở hữu 6 câu hỏi nghiên cứu (Question Ownership)
