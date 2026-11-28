@@ -9,17 +9,17 @@
 ### 1.1. Danh sách thành viên
 | STT | Họ và Tên | MSSV | Vai trò chính | Email |
 | :---: | :--- | :---: | :--- | :--- |
-| 1 | Huy | *[Điền MSSV]* | **Trưởng nhóm:** Quản trị Git/Repo, Data Collection (3.1), EDA Overview & Không gian–thời gian, phụ trách **Q1 & Q2**, `src/utils.py`. | *[Email]* |
-| 2 | *[Điền họ tên TV2]* | *[Điền MSSV]* | **Thành viên:** EDA cột số & kinh tế, Chuẩn hóa tuổi (ASR), Chuẩn hóa đồ thị `src/visualization.py`, phụ trách **Q3 & Q4**, Mục 3.5 & `slides.pdf`. | *[Email]* |
-| 3 | *[Nguyễn Đỗ Bảo Kiên]* | *[24122039]* | **Thành viên:** EDA nhân khẩu học & thiếu HDI, Ghép dữ liệu ngoài (D1), Xây dựng Machine Learning Pipeline **Q6**, phụ trách **Q5 & Q6**, `LLM_USAGE.md` & Mock Defense. | *[Email]* |
+| 1 | Phan Nguyễn Gia Huy | 24122035 | **Trưởng nhóm:** Quản trị Git/Repo, Data Collection (3.1), EDA Overview & Không gian–thời gian, phụ trách **Q1 & Q2**, `src/utils.py`. | fanzahuy1472@gmail.com |
+| 2 | Đăng *(Chờ cập nhật họ tên)* | *[Điền MSSV]* | **Thành viên:** EDA cột số & kinh tế, Chuẩn hóa tuổi (ASR), Chuẩn hóa đồ thị `src/visualization.py`, phụ trách **Q3 & Q4**, Mục 3.5 & `slides.pdf`. | *[Email]* |
+| 3 | Nguyễn Đỗ Bảo Kiên | 24122039 | **Thành viên:** EDA nhân khẩu học & thiếu HDI, Ghép dữ liệu ngoài (D1), Xây dựng Machine Learning Pipeline **Q6**, phụ trách **Q5 & Q6**, `LLM_USAGE.md` & Mock Defense. | *[Email]* |
 
 ### 1.2. Quyền sở hữu 6 câu hỏi nghiên cứu (Question Ownership)
 * **Q1 (Huy):** Xu hướng tỷ lệ tử vong do tự tử toàn cầu: Mẫu cố định (Fixed Cohort) vs Mẫu đầy đủ (All Available Countries) *(D2, D3, D6)*.
 * **Q2 (Huy):** Chênh lệch tỷ lệ tử vong Nam – Nữ theo 6 độ tuổi và Khoảng tin cậy Cluster Bootstrap 95% CI *(D3, D4, D5)*.
-* **Q3 (TV2):** Mối liên hệ giữa biến động GDP bình quân đầu người và Tỷ lệ tử vong trong cùng quốc gia *(D2, D3, D4, D6)*.
-* **Q4 (TV2):** Tác động của già hóa dân số: So sánh Tỷ lệ thô và Tỷ lệ chuẩn hóa theo độ tuổi trực tiếp (ASR) *(D2, D3, D4, D6)*.
-* **Q5 (TV3):** Khảo sát dữ liệu thiếu của HDI và sai lệch ước lượng theo độ tuổi & vùng địa lý *(D1, D2, D3, D4, D5, D6)*.
-* **Q6 (TV3 - Machine Learning):** Hệ thống cảnh báo sớm: Dự báo tỷ lệ tử vong năm $t+1$ cấp độ nhóm không rò rỉ dữ liệu *(Đạt chuẩn 6/6 tiêu chí ML)*.
+* **Q3 (Đăng):** Mối liên hệ giữa biến động GDP bình quân đầu người và Tỷ lệ tử vong trong cùng quốc gia *(D2, D3, D4, D6)*.
+* **Q4 (Đăng):** Tác động của già hóa dân số: So sánh Tỷ lệ thô và Tỷ lệ chuẩn hóa theo độ tuổi trực tiếp (ASR) *(D2, D3, D4, D6)*.
+* **Q5 (Kiên):** Khảo sát dữ liệu thiếu của HDI và sai lệch ước lượng theo độ tuổi & vùng địa lý *(D1, D2, D3, D4, D5, D6)*.
+* **Q6 (Kiên - Machine Learning):** Hệ thống cảnh báo sớm: Dự báo tỷ lệ tử vong năm $t+1$ cấp độ nhóm không rò rỉ dữ liệu *(Đạt chuẩn 6/6 tiêu chí ML)*.
 
 ---
 
@@ -57,6 +57,7 @@ suicide-rates-analysis/
 ├── src/                                 # Mô-đun Python tái sử dụng
 │   ├── __init__.py
 │   ├── utils.py                         # Hàm tính toán: tỷ lệ gộp, ASR, bootstrap CI, kiểm tra dòng
+│   ├── economy_age.py                   # Hàm xử lý sai phân GDP & chuẩn hóa tuổi ASR (Q3, Q4)
 │   └── visualization.py                 # Chuẩn hóa style đồ thị Seaborn/Matplotlib
 └── notebooks/
     ├── 01_collection_exploration.ipynb  # Mục 3.1 & 3.2: Thu thập & Khám phá EDA 12 cột
@@ -99,9 +100,9 @@ Chạy tuần tự thông qua lệnh **Kernel -> Restart & Run All**:
 ---
 
 ## 5. TÓM TẮT CÁC PHÁT HIỆN CHÍNH (KEY FINDINGS)
-*(Phần này sẽ được cập nhật sau khi hoàn thành chạy số liệu phân tích chi tiết)*
-1. **Phát hiện 1 (Giới tính & Tuổi):** Tỷ lệ tử vong ở nam giới cao gấp 3–4 lần nữ giới trên hầu hết các quốc gia, đặc biệt chênh lệch tăng vọt ở nhóm người cao tuổi ($\ge 55$ tuổi).
-2. **Phát hiện 2 (Bẫy chọn mẫu):** Xu hướng giảm tỷ lệ toàn cầu giai đoạn sau năm 2000 phần lớn do sự gia nhập của các quốc gia đang phát triển có tỷ lệ ghi nhận thấp, khi cố định một tập quốc gia (Fixed Cohort) thì mức độ sụt giảm chậm hơn nhiều.
-3. **Phát hiện 3 (Già hóa dân số):** Tại các quốc gia có tốc độ già hóa nhanh, tỷ lệ tử vong thô tăng lên nhưng tỷ lệ chuẩn hóa theo tuổi (ASR) thực tế lại giảm.
-4. **Phát hiện 4 (Dự báo Machine Learning):** Mô hình Random Forest với các biến trễ chuỗi thời gian cải thiện đáng kể sai số MAE so với Naive Baseline, giúp nhận diện sớm các phân nhóm có nguy cơ cao trong năm tiếp theo.
+1. **Phát hiện 1 (Bẫy chọn mẫu - Q1):** Trong giai đoạn 1990–2015, tỷ lệ tự tử trên toàn bộ quốc gia nộp báo cáo (`All Available`, 62–89 nước/năm) giảm **-12.96%** (13.18 xuống 11.47 ca/100k dân). Tuy nhiên, khi theo dõi cùng tập **34 quốc gia liên tục (`Fixed Balanced Cohort`)**, mức giảm thực chất chỉ đạt **-6.18%** (12.86 xuống 12.07 ca/100k; và **-8.81%** trên `Relaxed Cohort` 50 nước) — cho thấy sự gia nhập của các nước có tỷ lệ thấp sau năm 2000 tạo ra ảo ảnh giảm nhanh hơn gấp đôi.
+2. **Phát hiện 2 (Nghịch lý chênh lệch giới - Q2):** Trên **12,324 cặp** (99 quốc gia), toàn bộ 6 độ tuổi đều có 95% Cluster Bootstrap CI > 0. Người cao tuổi **75+** chịu mức *chênh lệch tuyệt đối* lớn nhất (**28.35 ca/100k**, 95% CI: [23.85, 32.97]), nhưng **nam thanh niên 25–34 tuổi** lại có *tỷ số tương đối* cao nhất (trung vị **4.19 lần**, tỷ số gộp **4.41 lần** so với nữ).
+3. **Phát hiện 3 (Biến động GDP ngắn hạn - Q3):** Khi khử yếu tố cố định của từng quốc gia bằng sai phân bậc nhất trên **2,148 cặp năm liền kề** (96 nước), tăng trưởng GDP danh nghĩa có tương quan nghịch chu kỳ rất yếu với biến động tỷ lệ tự tử ($r = -0.0289$, $\rho = -0.0544$, độ dốc **-0.0449 ca/100k** cho mỗi +10% GDP), và gần như triệt tiêu ở nhóm thu nhập cao ($r = -0.0043$).
+4. **Phát hiện 4 (Già hóa dân số che lấp cải thiện thực chất - Q4):** Trên **49 quốc gia** đủ dữ liệu giai đoạn 1995–2000 và 2010–2015, tỷ lệ thô giảm **-2.087 ca/100k** (14.515 xuống 12.428), trong khi **Tỷ lệ chuẩn hóa theo tuổi (WHO ASR)** giảm tới **-2.607 ca/100k** (13.858 xuống 11.252). Phân rã Kitagawa chỉ ra yếu tố già hóa (+4.61 điểm % nhóm 55+) đã kéo tỷ lệ thô tăng ngược **+0.809 ca/100k**, làm triệt tiêu 38.75% mức giảm rủi ro theo tuổi (-2.896 ca/100k).
+5. **Phát hiện 5 & 6 (Thiếu dữ liệu HDI & Dự báo ML - Q5, Q6):** *(Sẽ cập nhật số liệu đối chiếu cuối cùng sau khi ghép hoàn chỉnh phần Q5 & Q6 từ nhánh `feat/kien/q5-q6`)*.
 
